@@ -1,0 +1,41 @@
+
+
+html {
+    margin: 5px;
+}
+body {
+    padding: 1em;
+}
+html {
+    margin: 5px;
+    padding: 5px;
+    background: url('background.jpg');
+    opacity: .9;
+    background-size: 95%;
+}
+.pics {
+    border-radius: 5px;
+    border: 10px;
+    border-color: azure;
+    margin: 1em 3em;
+    height: 150px;
+    width: 150px;
+}
+.main-content {
+    padding: 20px;
+    margin: 1em;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.pic-span {
+    border: 1px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+#main-header {
+    margin: 2em;
+}
+.hgroup {
+    text-align: center;
+}

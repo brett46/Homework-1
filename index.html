@@ -1,0 +1,65 @@
+
+
+<!-- 
+EX01_01 – Create a web site that describes your product idea. 
+The audience for this website is potential users and potential investors. Describe the product, including mock screenshots.
+ Describe the team building the product, including images for each team member. You’ll need at least two web pages. 
+ Use Javascript to allow users to iterate through the mock screen shots.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Project Docs</title>
+</head>
+<body>
+    <div class="main-content">
+        <h1 id="main-header">Pirate Pitching Data</h1>
+        <br>   
+        <div class="main-content">
+            <p>Liam, Asher, and Brett's project will be to construct a website that Whitworth's baseball team can use to track pitching data. 
+                The website will track: balls and strikes. It will crunch those numbers to compute the percentage of strikes thrown by each pitcher.
+                Our website will be able to organize data from each pitcher to provide the coaching staff with information on each pitcher and each game.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <div class="pic-span">
+                <img class="pics" id='Liam' src="Liam.jpg" alt="Liam">
+                <img class="pics" id='Asher' src="Asher.jpg" alt="Asher">
+                <img class="pics" id='Brett' src="Brett.jpg" alt="Brett">
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div style="border: 1px;text-align:center;">
+                <a href="sc.html"><button>Details</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script>
+
+    $('#Liam').click( function() {
+        alert('This persons name is Liam');
+    });
+    $('#Asher').click( function() {
+        alert('This persons name is Asher');
+    });
+    $('#Brett').click( function() {
+        alert('This persons name is Brett');
+    });
+
+
+
+</script>
