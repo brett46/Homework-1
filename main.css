@@ -12,6 +12,7 @@ html {
     background: url('background.jpg');
     opacity: .9;
     background-size: 95%;
+    background-attachment: fixed;
 }
 .pics {
     border-radius: 5px;
