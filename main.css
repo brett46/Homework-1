@@ -35,8 +35,14 @@ html {
     text-align: center;
 }
 #main-header {
-    margin: 2em;
+    margin: 2em 2em 20px 2em;
 }
 .hgroup {
     text-align: center;
+}
+.slideshow-img {
+    position: relative;
+    border: 10px;
+    border-radius: 5px;
+    border-color: blanchedalmond;
 }

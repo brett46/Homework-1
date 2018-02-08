@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
     <title>Docs</title>
 </head>
 <body>
-    <div class="hgroup">
-        <h1 style="text-align:center">Docs</h1>
-        <h3>See the documentation for our site!</h3>
-    </div>
-
     <div class="main-content">
-        <p>Our plan is to create a mobile-first web app to cater to the statistics needs of the Whitworth Baseball team. We will use a mongoDB back-end on a google cloud compute instance, running a Django-wsgi application through apache's wsgi module.</p>
-        <br><hr><br>
-        <p>The application will have a responsive-design and allow the team to take statistics on an ipad, laptop or phone while the game is going on, and be able to access different parts of the site as needed to run automated queries on the database. The django-backend will also run machine learning algorithms on the data to give predictive analysis on the data in real time to assist game decisions.</p>
-    </div>
 
+        <div class="hgroup">
+            <h1 style="text-align:center">Docs</h1>
+            <h3>See the documentation for our site!</h3>
+        </div>
+
+        <p>Our plan is to create a mobile-first web app to cater to the statistics needs of the Whitworth Baseball team. We will use a mongoDB back-end on a google cloud compute instance, running a Django-wsgi application through apache's wsgi module.
+        <br><br><hr><br>
+        The application will have a responsive-design and allow the team to take statistics on an ipad, laptop or phone while the game is going on, and be able to access different parts of the site as needed to run automated queries on the database. The django-backend will also run machine learning algorithms on the data to give predictive analysis on the data in real time to assist game decisions.</p>
+        Click the picture below to scroll through our screenshots.
+        <br><hr><br>
+
+        <div class="slideshow">
+            <div class="slideshow-img" style="text-align:center;border:1px;">
+                <img id="img" src="landingpage.png" alt="" height="450" width="500">
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>
